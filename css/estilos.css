@@ -1,0 +1,341 @@
+
+body
+{
+    background-image:url("../img/fondo.jpg");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    color:#172B4D;
+    font-family:Arial;
+    margin:0;
+}
+.encabezado
+{
+    background-image: url("../img/fondo.jpeg");
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:60px;
+}
+
+.bienvenida
+{
+    background-color:rgba(255,255,255,0.7);
+    color:#0B2D4D;
+    padding:15px;
+}
+.encabezado p
+{
+    background-color:rgba(0,0,0,0.5);
+    color:white;
+    padding:15px;
+}
+.foto-perfil
+{
+    float:right;
+    text-align:center;
+    margin-left:25px;
+    margin-bottom:15px;
+}
+
+.foto-perfil img
+{
+    width:200px;
+}
+
+.nombre
+{
+    color:white;
+    font-size:40px;
+}
+
+.subtitulo
+{
+    color:#7DD3FC;
+    font-size:22px;
+}
+
+.menu
+{
+    background-color:#DFF3FC;
+    text-align:center;
+    padding:20px;
+}
+
+.menu a
+{
+    background-color:#0B2D4D;
+    color:white;
+    padding:10px;
+    margin:5px;
+    text-decoration:none;
+    display: inline-block;
+}
+
+.menu a:hover
+{
+    background-color:#7DD3FC;
+    color:#0B2D4D;
+}
+
+.contenido
+{
+    
+    margin:30px;
+    padding:30px;
+}
+
+.titulo
+{
+    color:#0B2D4D;
+    text-align:center;
+}
+
+.subtitulo-seccion
+{
+    color:#5A7D9A;
+}
+
+.texto
+{
+    font-size:17px;
+    line-height:1.6;
+}
+
+.sobre-mi
+{
+    background-color:rgba(244,248,252,0.70);
+    padding:20px;
+    margin:15px;
+}
+
+.habilidad
+{
+    background-color:rgba(7, 163, 163, 0.9);
+    padding:20px;
+    margin:10px;
+    width:250px;
+    display:inline-block;
+    vertical-align:top;
+    text-align:center;
+    color: white;
+}
+
+.habilidad-tecnica
+{
+    background-color:rgba(54, 34, 141, 0.9);
+    padding:20px;
+    margin:10px;
+    width:250px;
+    display:inline-block;
+    vertical-align:top;
+    text-align:center;
+    color: white;
+}
+.proyecto
+{
+    background-color:#239797;
+    width:350px;
+    height:300px;
+    display:inline-block;
+    vertical-align:top;
+    text-align:center;
+    margin:30px;
+    padding:25px;
+    border-radius:50%;
+    overflow: hidden;
+    box-sizing:border-box;
+}
+.proyecto p
+{
+    font-size:14px;
+    line-height:1.3;
+    margin:10px;
+}
+
+.proyecto h3
+{
+    color:white;
+}
+
+.proyecto img
+{
+    width:150px;
+    height: 90px;
+}
+
+.proyecto figcaption
+{
+    color: white;
+    font-size: 15px;
+}
+
+.actividad
+{
+    background-color:rgba(223,243,252,0.75);
+    padding:30px;
+    margin:20px ;
+}
+
+.actividad-danza
+{
+    background-image:url(".../img/silueta.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:250px;
+}
+.actividad-escolar
+{
+    background-image:url(".../img/silueta-escuela.webp");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:250px;
+    text-align: left;
+}
+.actividad-escolar h3 
+{
+    text-align: left;
+}
+
+.pasatiempo
+{
+    background-color:#DFF3FC;
+    padding:20px;
+    margin:15px;
+    width:220px;
+    min-height:220px;
+    display:inline-block;
+    vertical-align:top;
+    text-align:center;
+    box-sizing:border-box;
+}
+
+.contacto
+{
+    background-color:rgba(244,248,252,0.75);
+    padding:25px;
+}
+
+.habilidad h3
+{
+    color:white;
+}
+
+.habilidad-tecnica h3
+{
+    color: white;
+}
+
+.lista
+{
+    line-height:1.8;
+}
+
+.imagen
+{
+    width:300px;
+}
+
+.descripcion-imagen
+{
+    color:#5A7D9A;
+    font-style:italic;
+}
+
+.titulo-proyecto
+{
+    font-size: 18px;
+    color: #0B2D4D;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.actividad h3
+{
+    color:#0B2D4D;
+}
+
+
+.pasatiempo h3
+{
+    color:#0B2D4D;
+}
+
+.boton
+{
+    background-color:#0B2D4D;
+    color:white;
+    padding:12px;
+    border:none;
+}
+
+.separador
+{
+    border:10px solid black;
+    width: 100%;
+    clear: both;
+}
+
+.pie
+{
+    text-align:right;
+    font-size:14px;
+    color:#5A7D9A;
+}
+
+.formacion
+{
+    background-color:#F4F8FC;
+    padding:20px;
+    margin:20px;
+    width:300px;
+    display:inline-block;
+    vertical-align:top;
+    text-align:center;
+}
+.epet
+{
+    margin-left:8%;
+}
+
+.primaria
+{
+    margin-left:30%;
+}
+
+.danza
+{
+    display:block;
+    margin:20px auto;
+}
+
+.formacion h3
+{
+    color:#0B2D4D;
+}
+
+.formacion img
+{
+    width:220px;
+}
+
+.formacion figcaption
+{
+    color:#5A7D9A;
+    font-weight:bold;
+    margin:10px;
+}
+
+.formacion p
+{
+    line-height:1.5;
+}
+
+.pie
+{
+    text-align:right;
+    font-size:12px;
+    color:#5A7D9A;
+    margin:2px;
+}
